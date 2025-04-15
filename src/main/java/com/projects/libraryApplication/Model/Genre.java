@@ -1,8 +1,21 @@
 package com.projects.libraryApplication.Model;
 
-public class Genre {
+public enum Genre {
 
-    private int id;
-    private String name;
+    FICCION,
+    NO_FICCION,
+    FANTASIA,
+    CIENCIA_FICCION,
+    MISTERIO,
+    ROMANCE,
+    TERROR,
+    HISTORICO,
+    BIOGRAFIA,
+    CIENCIA,
+    AUTOAYUDA,
+    INFANTIL,
+    JUVENIL,
+    COMICS,
+    EDUCACION
 
 }

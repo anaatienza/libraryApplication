@@ -2,12 +2,14 @@ package com.projects.libraryApplication.Model;
 
 import java.time.LocalDate;
 
-public class Author {
+public class Client  {
 
     private int id;
-    private String firstName;
-    private String lastName;
+    private String nationalId;
+    private int firstName;
+    private int lastName;
     private LocalDate birthDate;
-    private String nationality;
+    private String email;
 
 }
+

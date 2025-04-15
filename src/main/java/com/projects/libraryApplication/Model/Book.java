@@ -1,15 +1,16 @@
 package com.projects.libraryApplication.Model;
 
+import java.time.LocalDate;
+
 public class Book {
 
     private int id;
     private String title;
-    private String coverImage;
-    private String sinopsis;
-    private int numberPages;
-    private String publicationDate;
+    private String isbn;
+    private LocalDate publicationDate;
+    private Genre genre;
+    private int totalCopies;
     private int authorId;
-    private int genreId;
     private int editorialId;
 
 }
