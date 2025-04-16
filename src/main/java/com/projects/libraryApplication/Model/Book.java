@@ -6,6 +6,7 @@ public class Book {
 
     private int id;
     private String title;
+    private String coverImage;
     private String isbn;
     private LocalDate publicationDate;
     private Genre genre;
